@@ -1,8 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2018-04-11T16:22:08+08:00
-
-====== Home ======
-Created 星期三 11 四月 2018
-
-打算把Notebook迁移到Github上面。所以先把github的环境弄好。

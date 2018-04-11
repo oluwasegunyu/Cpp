@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-04-11T16:22:08+08:00
+
+====== 环境搭建 ======
+Created 星期三 11 四月 2018
+
+打算把Notebook迁移到Github上面。所以先把github的环境弄好。
+1. 在github上新建一个repository
+2. 将自己的ssh公钥设置到github
+3. git clone git@github.com:oluwasegunyu/Cpp.git 克隆到本地
+4. 编辑文件
+5. git add .
+6. git commit
+7. git push -u origin master 上传
