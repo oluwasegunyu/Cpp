@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/yxy/Notebooks/Cpp/Chapter1/main.cpp">
+		<Unit filename="/home/yxy/Notebooks/Cpp/Chapter2/main.cpp">
 			<Option target="Cpp"/>
 		</Unit>
 		<Unit filename="/home/yxy/Notebooks/Cpp/CMakeLists.txt">

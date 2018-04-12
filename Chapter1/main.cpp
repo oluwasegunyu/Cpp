@@ -2,26 +2,11 @@
 // Created by yxy on 18-4-11.
 //
 #include <iostream>
+#include "Sales_item.h"
 
 int main(){
-    std::cout << "Enter two numbers:" << std::endl;
-    int v1, v2;
-    std::cin >> v1 >>v2;
-
-    int lower, upper;
-    if(v1<=v2){
-        lower = v1;
-        upper = v2;
-    } else{
-        lower =v2;
-        upper =v1;
-    }
-
-    int sum =0;
-    for(int val = lower;val<=upper;++val){
-        sum += val;
-    }
-    std::cout << "The sum of " << lower << " to " << upper
-              << " is " << sum << std::endl;
+    Sales_item book;
+    std::cin >> book;
+    std::cout << book << std::endl;
     return 0;
 }

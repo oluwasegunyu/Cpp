@@ -123,32 +123,32 @@ Cpp/fast:
 	$(MAKE) -f CMakeFiles/Cpp.dir/build.make CMakeFiles/Cpp.dir/build
 .PHONY : Cpp/fast
 
-Chapter1/main.o: Chapter1/main.cpp.o
+Chapter2/main.o: Chapter2/main.cpp.o
 
-.PHONY : Chapter1/main.o
+.PHONY : Chapter2/main.o
 
 # target to build an object file
-Chapter1/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Cpp.dir/build.make CMakeFiles/Cpp.dir/Chapter1/main.cpp.o
-.PHONY : Chapter1/main.cpp.o
+Chapter2/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Cpp.dir/build.make CMakeFiles/Cpp.dir/Chapter2/main.cpp.o
+.PHONY : Chapter2/main.cpp.o
 
-Chapter1/main.i: Chapter1/main.cpp.i
+Chapter2/main.i: Chapter2/main.cpp.i
 
-.PHONY : Chapter1/main.i
+.PHONY : Chapter2/main.i
 
 # target to preprocess a source file
-Chapter1/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Cpp.dir/build.make CMakeFiles/Cpp.dir/Chapter1/main.cpp.i
-.PHONY : Chapter1/main.cpp.i
+Chapter2/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Cpp.dir/build.make CMakeFiles/Cpp.dir/Chapter2/main.cpp.i
+.PHONY : Chapter2/main.cpp.i
 
-Chapter1/main.s: Chapter1/main.cpp.s
+Chapter2/main.s: Chapter2/main.cpp.s
 
-.PHONY : Chapter1/main.s
+.PHONY : Chapter2/main.s
 
 # target to generate assembly for a file
-Chapter1/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Cpp.dir/build.make CMakeFiles/Cpp.dir/Chapter1/main.cpp.s
-.PHONY : Chapter1/main.cpp.s
+Chapter2/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Cpp.dir/build.make CMakeFiles/Cpp.dir/Chapter2/main.cpp.s
+.PHONY : Chapter2/main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Cpp"
-	@echo "... Chapter1/main.o"
-	@echo "... Chapter1/main.i"
-	@echo "... Chapter1/main.s"
+	@echo "... Chapter2/main.o"
+	@echo "... Chapter2/main.i"
+	@echo "... Chapter2/main.s"
 .PHONY : help
 
 

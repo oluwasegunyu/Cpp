@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基本类型</title>
+</head>
+<body>
+1. C++标准库通过基本类型和自定义数据类型的机制定义更复杂的类型。<br />
+2. 8位为一个字节，4个字节是一个字。<br />
+3. 对象是内存中具有类型的区域：变量或类类型的值。<br />
+4. 变量的初始化方式有两种：复制初始化和直接初始化。<br />
+int ival(1024);//直接初始化<br />
+int ival = 1024;//复制初始化<br />
+5. 直接初始化语法更灵活效率更高。<br />
+6. 对于内置类型来说这两种初始化方式没有差别。<br />
+7. 对类类型的对象来说，有些初始化仅能用直接初始化完成。<br />
+8. 例如string对象的初始化：<br />
+std::string titleA = "C++ primer";<br />
+std::string titleB("C++ primer");<br />
+这两种初始化结果一样，但是<br />
+std::string all_nine(10, '9');<br />
+这种方式就没有办法使用复制初始化了。<br />
+9. C++由许多文件组成，为了让多个文件访问相同的变量，C++区分声明和定义。<br />
+声明用于向程序表明变量的类型和名字。可以通过使用extern关键字声明变量名而不定义它。如：extern int i;<br />
+定义也是声明，定义的时候为变量分配存储空间。定义和声明如： int i<br />
+可以声明多次但是只能定义一次。也就是只能分配一次存储空间。<br />
+10. const限定符表示constant的意思，常数是不可变的。<br />
+11. const变量默认是本文件可见，非const变量默认extern。如果要使得const全局可见必须显式的定义为extern。<br />
+12. 引用是对象的另一个名字。首先引用的必须是对象，其次必须初始化，第三不能定义引用类型的引用。<br />
+13. 引用不能修改其指向的对象。<br />
+14. const引用是指指向const对象的引用。例如<br />
+const int ival = 1024;<br />
+const int &refval = ival;<br />
+如果引用是非const的那么就意味这可以对引用修改，而引用的对象是const类型又不能修改，这就会导致错误。<br />
+15. 非const引用只能绑定到同类型的对象。const引用却可以绑定到不同类型的对象。<br />
+double dval = 3.14;<br />
+int &refdval = dval;//这是错误的。<br />
+const int &refdval = dval;//这是正确的<br />
+原因在于const会进行一次转换，转换过程如下<br />
+int temp = dval;<br />
+const int &refdval = temp;<br />
+16. typedef 是定义类型的别名，引用定义对象的别名。<br />
+17. 
+</body>
+</html>
