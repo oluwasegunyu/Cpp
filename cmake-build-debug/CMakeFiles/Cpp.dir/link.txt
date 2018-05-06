@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/Cpp.dir/Chapter2/main.cpp.o  -o Cpp 
