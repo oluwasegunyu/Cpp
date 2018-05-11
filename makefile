@@ -1,2 +1,2 @@
-example-0: example-0.c
-	gcc `pkg-config --cflags gtk+-3.0` -o example-0 example-0.c `pkg-config --libs gtk+-3.0` 
+diary:diary.c save_file.c set_text_content.c diary_file.h 
+	gcc -g -o diary $^ `pkg-config --libs --cflags libglade-2.0 gtk+-2.0`
